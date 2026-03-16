@@ -1,0 +1,207 @@
+body{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(214, 224, 232);
+    margin: 0;
+    background-image: url(Background/Background4.jpg);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 10px; 
+
+
+}
+.top-nav-blur{
+    margin-top: 5px; /* Outside Spacing */
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    padding-left: 1%;
+    display: flex;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.blur-box{
+    background: rgba(32, 29, 29, 0.059);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 7px 15px;
+    justify-content:space-between;
+    align-items:center;
+    height: auto;
+    width:fit-content;
+
+}
+
+a {
+    text-decoration: none; /* removes  underline */
+    color: inherit;       /* Normal color */
+}
+
+.Main-block{
+    margin-top: 1px; /* Outside Spacing */
+    margin-bottom: 1px;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    display: flex;
+    background: rgba(255,255,255,0);
+    /*backdrop-filter: blur(20px); */
+    border-radius: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.Main-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    padding: 7px 15px;
+    justify-content:space-between;
+    align-items:center;
+    height: 300px;
+    width:fit-content;
+    padding-right: 0px;
+
+}
+
+.round-pic {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;         
+    height: 200px;        
+    border-radius: 50%;   /* circle */
+    object-fit: cover;    /* maintains aspect ratio */
+}
+
+
+
+.blur-box2{
+    background: rgba(32, 29, 29, 0.059);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 7px 15px;
+    justify-content:space-between;
+    align-items:center;
+    height: auto;
+    width:fit-content;
+
+}
+.mid-nav-blur{
+    margin-top: 1px; /* Outside Spacing */
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    padding-left: 1%;
+    display: flex;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    justify-content: space-between;
+    gap:15px; 
+}
+
+.mid-nav-blur div{
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+.Main-block2{
+    margin-top: 5px; /* Outside Spacing */
+    margin-bottom: 5px;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    display: flex;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    flex-grow: 1;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.vl {
+  border-left: 6px solid rgba(0, 0, 0, 0.119);
+  border-radius: 100px;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+
+
+/* MOBILE ------------------------ TRYING */
+
+
+@media (max-width: 768px){
+body{
+    overflow: auto;
+}
+
+.top-nav-blur{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:5px;
+}
+
+.Main-block{
+    flex-direction:column;
+    align-items:center;
+}
+
+.Main-box{
+    flex-direction:column;
+    width:95%;
+    height:auto;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+.round-pic{
+    width:140px;
+    height:140px;
+}
+.Main-box ul{
+    padding-left:20px;
+}
+
+.mid-nav-blur{
+    width:95%;
+    display:flex;
+    flex-wrap:wrap;          /* allows next row */
+    justify-content:center;  /* centers items */
+
+    gap:15px;
+
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.Main-block2{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+.vl{
+    display:none;
+}
+
+.Main-block2 div{
+    padding-left:0 !important;
+    width:100% ;
+    max-width:90%;
+}
+}
