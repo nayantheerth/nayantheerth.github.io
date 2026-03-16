@@ -1,0 +1,56 @@
+body{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(214, 224, 232);
+    margin: 0;
+    background-color: rgba(36, 35, 35, 0.756);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 10px; 
+}
+
+.top-nav-blur{
+    margin-top: 5px; /* Outside Spacing */
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+    padding-left: 1%;
+    display: flex;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+
+
+.main-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 125px;
+    
+}
+
+.blur-box{
+    background: rgba(32, 29, 29, 0.059);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 7px 15px;
+    justify-content:space-between;
+    align-items:center;
+    height: auto;
+    width:fit-content;
+
+}
+
+a {
+    text-decoration: none; /* removes  underline */
+    color: inherit;       /* Normal color */
+}
