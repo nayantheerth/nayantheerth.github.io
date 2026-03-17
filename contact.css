@@ -35,6 +35,7 @@ body{
     justify-content: center;
     align-content: center;
     margin-top: 125px;
+    transition: 0.4s;
     
 }
 
@@ -59,5 +60,11 @@ a {
 .blur-box:hover {
 
   transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.main-box:hover {
+
+  transform: scale(1.17);
   transition: 0.4s;
 }
