@@ -47,10 +47,17 @@ body{
     align-items:center;
     height: auto;
     width:fit-content;
+    transition: 0.4s;
 
 }
 
 a {
     text-decoration: none; /* removes  underline */
     color: inherit;       /* Normal color */
+}
+
+.blur-box:hover {
+
+  transform: scale(1.1);
+  transition: 0.4s;
 }

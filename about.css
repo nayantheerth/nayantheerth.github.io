@@ -23,7 +23,7 @@ body{
 }
 
 .blur-box{
-    background: rgba(32, 29, 29, 0.059);
+    background: rgba(32, 29, 29, 0);
     backdrop-filter: blur(20px);
     border-radius: 15px;
     padding: 7px 15px;
@@ -31,6 +31,7 @@ body{
     align-items:center;
     height: auto;
     width:fit-content;
+    transition: 0.4s;
 
 }
 .blur-box p{
@@ -54,4 +55,11 @@ a {
     border-radius: 10px;
     margin-right: 25px;
     margin-left: 25px;
+}
+
+
+.blur-box:hover {
+
+  transform: scale(1.1);
+  transition: 0.4s;
 }
