@@ -13,7 +13,7 @@ This is a static portfolio website built to highlight my journey as a B.Tech Com
 * **About:** A deeper dive into my practical work with drones, microcontroller-based projects, custom communication protocols, and system design.
 * **Contact:** *Currently under construction!* (Check back later for updates).
 
-## 🛠️ Technical Skills Highlighted
+## 🛠️ Technical Skills
 
 * **Languages:** Python, Java, HTML, CSS
 * **Systems:** Linux environments (Debian), Embedded Microcontrollers
